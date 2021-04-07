@@ -11,6 +11,7 @@ This tool deletes all your posts and comments
 
 -[Selenium](https://pythonspot.com/selenium-install/)
 
+-Chrome Driver
 ## How to:
 
 Open the py file and replace the Username and password with your reddit login details, hit run.
