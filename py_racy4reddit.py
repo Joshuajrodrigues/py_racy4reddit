@@ -25,7 +25,6 @@ button = driver.find_element_by_class_name("btn")
 button.send_keys(Keys.RETURN)
 driver.implicitly_wait(5)
 
-# goto "https://old.reddit.com/user/stfuandkissmyturtle/"
 l = driver.find_element_by_link_text(username)
 l.click()
 # # go to id =siteTable
