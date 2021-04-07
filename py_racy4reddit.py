@@ -12,12 +12,12 @@ driver.get(f"https://old.reddit.com/")
 actions = ActionChains(driver)
 # take username
 #username = input("Reddit Username:")
-username = "stfuandkissmyturtle"
+username = "yourusernamehere"
 user_field = driver.find_element_by_name("user")
 user_field.send_keys(username)
 # take password
 #password = input("Reddit Password:")
-password = "isthisworking"
+password = "yourpasswordhere"
 pass_field = driver.find_element_by_name("passwd")
 pass_field.send_keys(password)
 # press login
