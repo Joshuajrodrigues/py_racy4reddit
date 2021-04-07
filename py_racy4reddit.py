@@ -31,14 +31,6 @@ l.click()
 sitetable = driver.find_element_by_id("siteTable")
 c = sitetable.text
 while c != "":
-
-    # delete = driver.find_elements_by_link_text("delete")
-    # v = driver.find_elements_by_link_text("yes")
-    # for d in delete:
-    #     d.click()
-    #     for y in v:
-    #         y.click()
-    # press delete
     try:
         delete = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located(
