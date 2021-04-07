@@ -1,7 +1,7 @@
 # py_racy4reddit
 A full and functional nuke to delete all readdit comments and posts
-Reddit event though is a privacy centered app it does not provide an easy way to clear all your data.
-Data that could potentially dox you on a site that lets you be completely anonymouse 
+Reddit even though is a privacy centered app it does not provide an easy way to clear all your data.
+Data that could potentially dox you on a site that lets you be completely anonymouse is ironic
 
 This tool deletes all your posts and comments
 ## Requirements:
